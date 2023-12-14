@@ -1,0 +1,45 @@
+var express = require('express');
+var router = express.Router();
+
+const { Category } = require('../models/Category');
+
+
+
+router.get('/', async (req, res, next) => {  
+  const categories =  await Category.find({parentId: 0});
+  res.send(categories);
+});
+
+router.get('/city/:q', async (req, res, next) => {  
+  const categories =  await Category.find({parentId: 0});
+  res.send(categories);
+});
+
+
+
+/* GET home page. */
+router.get('/create', async (req, res, next) => {  
+  const categories =  await Category.create({
+    name: "Car Rent",
+    slug: "car-rent",
+    parentId: "656ffbdb44052a6745a64615"
+  });
+  res.send(categories);
+});
+
+
+router.get('/list', async (req, res, next) => {  
+  const categories =  await Category.find();
+  res.send(categories);
+});
+
+
+router.get('/list-by-id/:id', async (req, res, next) => {  
+  const id = req.params.id;
+  const categories =  await Category.find({parentId: id});
+  res.send(categories);
+});
+
+
+
+module.exports = router;

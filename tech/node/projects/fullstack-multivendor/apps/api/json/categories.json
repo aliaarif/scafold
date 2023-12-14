@@ -1,0 +1,114 @@
+[
+  {
+    "_id": {
+      "$oid": "6571ef8267305ef722e5c669"
+    },
+    "name": "Hire On",
+    "slug": "hire-on",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "657205f2e888fdfed7ee2859"
+    },
+    "name": "Daily Need",
+    "slug": "daily-need",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65720605e888fdfed7ee285c"
+    },
+    "name": "Personal Care",
+    "slug": "personal-care",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6572061be888fdfed7ee285f"
+    },
+    "name": "Medical",
+    "slug": "medical",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65720628e888fdfed7ee2862"
+    },
+    "name": "Education",
+    "slug": "education",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65720636e888fdfed7ee2865"
+    },
+    "name": "House Hold",
+    "slug": "house-hold",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65720640e888fdfed7ee2868"
+    },
+    "name": "Public Services",
+    "slug": "public-services",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65720649e888fdfed7ee286b"
+    },
+    "name": "Marriage",
+    "slug": "marriage",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65720657e888fdfed7ee286e"
+    },
+    "name": "Sports Hobbies",
+    "slug": "sports-hobbies",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65720662e888fdfed7ee2871"
+    },
+    "name": "Internet",
+    "slug": "internet",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6572066be888fdfed7ee2874"
+    },
+    "name": "Restaurant",
+    "slug": "restaurant",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65720677e888fdfed7ee2877"
+    },
+    "name": "Electronic Store",
+    "slug": "electronic-store",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6572818101041cfd257c4b53"
+    },
+    "name": "Furniture",
+    "slug": "furniture",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6572819001041cfd257c4b56"
+    },
+    "name": "Shoes",
+    "slug": "shoes",
+    "__v": 0
+  }
+]

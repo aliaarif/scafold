@@ -1,0 +1,6 @@
+services:
+  img:
+    build: .
+    container_name: react-cv
+    ports:
+      - 3000

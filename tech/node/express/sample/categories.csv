@@ -1,0 +1,17 @@
+_id,name,slug,parentId[0]
+1,Hire On,hire-on,0
+2,Daily Need,daily-need,0
+3,Personal Care,personal-care,0
+4,Medical,medical,0
+5,Education,education,0
+6,House Hold,house-hold,0
+7,Public Services,public-services,0
+8,Marriage,marriage,0
+9,Sports Hobbies,sports-hobbies,0
+10,Internet,internet,0
+11,Restaurant,restaurant,0
+12,Electronic Store,electronic-store,0
+13,Car Rent,car-rent,1
+14,Buke Rent,bike-rent,1
+15,Suzuki Car Rent,Suzuki-car-rent,13
+16,Suzuki 2 Seater Car Rent,Suzuki-2-seater-car-rent,15

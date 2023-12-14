@@ -1,0 +1,29 @@
+# services:
+#   img:
+#     build: .
+#     container_name: c-et
+#     ports:
+#       - 3000
+
+version: '3.8'
+services:
+  app:
+    container_name: c-et
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/your-db-name
+
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

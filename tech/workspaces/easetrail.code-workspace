@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../node/express/easetrail"
+		},
+		{
+			"path": "../node/nuxt/easetrail"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<%= include('header'); %>
+
+    <body class="is-theme-core">
+        <div class="pageloader"></div>
+        <div class="infraloader is-active"></div>
+        <!-- Hero and Navbar -->
+        <div class="hero is-default is-bold is-fullheight">
+            <%= include('nav'); %>
+                <%= include('hero-body'); %>
+                    <%= include('clients-logo'); %>
+        </div>
+        <%= include('side-features'); %>
+            <%= include('app-showcase'); %>
+                <%= include('side-features-2'); %>
+                    <%= include('teams'); %>
+                        <%= include('clients'); %>
+                            <%= include('testimonials'); %>
+                                <%= include('contacts'); %>
+                                    <%= include('footer'); %>
+                                        <%= include('side-navigation'); %>
+                                            <%= include('back-to-top'); %>
+                                                <%= include('theme'); %>
+                                                    <%= include('chat'); %>
+                                                        <%= include('js'); %>
+    </body>
+
+</html>

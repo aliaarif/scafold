@@ -1,0 +1,78 @@
+    <!-- App showcase Section -->
+    <div class="section is-medium section-feature-grey has-background-image is-contain has-pseudo-lines" data-background="assets/img/graphics/legacy/circles-and-shapes.png">
+        <div class="container">
+            <!-- Title -->
+            <div class="section-title-wrapper has-text-centered">
+                <!-- Divider -->
+                <div class="special-divider">
+                    <span></span>
+                    <span></span>
+                </div>
+                <h2 class="title is-2">Awesome Features.</h2>
+                <h4 class="subtitle is-4">Discover our App.</h4>
+            </div>
+
+            <!-- Content -->
+            <div class="content-wrapper">
+                <div class="columns is-vcentered">
+                    <!-- App mockups -->
+                    <div class="column is-7">
+                        <div class="showcase-wrapper">
+                            <div id="mockup-1" class="showcase-wrap is-active">
+                                <img class="app-showcase" src="assets/img/graphics/legacy/project-app.png" alt="">
+                            </div>
+                            <div id="mockup-2" class="showcase-wrap">
+                                <img class="app-showcase" src="assets/img/graphics/legacy/project-app.png" alt="">
+                            </div>
+                            <div id="mockup-3" class="showcase-wrap">
+                                <img class="app-showcase" src="assets/img/graphics/legacy/project-app.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mockups content -->
+                    <div class="column is-5">
+                        <!-- Feature -->
+                        <div id="feature-1" class="showcase-text-wrapper animated preFadeInUp fadeInUp">
+                            <h3 class="title is-3">Project Management</h3>
+                            <p>Project managment is really awesome because lorem ipsum sit dolor amet et cupidis et sil cout
+                                marat. Lorem ipsum sit dolor amet et cupidis et sil cout marat.</p>
+                            <a href="kit5-landing.html#" class="button button-cta is-bold btn-align primary-btn raised mt-20 mb-20">
+                                Learn more
+                            </a>
+                        </div>
+                        <!-- Feature -->
+                        <div id="feature-2" class="showcase-text-wrapper animated preFadeInUp fadeInUp is-hidden">
+                            <h3 class="title is-3">Accounting</h3>
+                            <p>Accounting is really awesome because lorem ipsum sit dolor amet et cupidis et sil cout marat.
+                                Lorem ipsum sit dolor amet et cupidis et sil cout marat.</p>
+                            <a href="kit5-landing.html#" class="button button-cta is-bold btn-align primary-btn raised mt-20 mb-20">
+                                Learn more
+                            </a>
+                        </div>
+                        <!-- Feature -->
+                        <div id="feature-3" class="showcase-text-wrapper animated preFadeInUp fadeInUp is-hidden">
+                            <h3 class="title is-3">Document Management</h3>
+                            <p>Document managment is really awesome because lorem ipsum sit dolor amet et cupidis et sil
+                                cout marat. Lorem ipsum sit dolor amet et cupidis et sil cout marat.</p>
+                            <a href="kit5-login.html" class="button button-cta is-bold btn-align primary-btn raised mt-20 mb-20">
+                                Free Trial
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="slide-control">
+                    <div class="slide-dot is-active" data-feature="mockup-1" data-feature-text="feature-1">
+                        <img src="assets/img/graphics/icons/dot-icon-1-core.svg" data-base-url="assets/img/graphics/icons/dot-icon-1" data-extension=".svg" alt="">
+                    </div>
+                    <div class="slide-dot" data-feature="mockup-2" data-feature-text="feature-2">
+                        <img src="assets/img/graphics/icons/dot-icon-2-core.svg" data-base-url="assets/img/graphics/icons/dot-icon-2" data-extension=".svg" alt="">
+                    </div>
+                    <div class="slide-dot" data-feature="mockup-3" data-feature-text="feature-3">
+                        <img src="assets/img/graphics/icons/dot-icon-3-core.svg" data-base-url="assets/img/graphics/icons/dot-icon-3" data-extension=".svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
